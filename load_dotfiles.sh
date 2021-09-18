@@ -14,3 +14,7 @@ elif [ "$dotfile" = ".tmux.conf" ]; then
 else
   echo "Select the displayed number"
 fi
+
+#~/配下にenoDir作成。
+#そこにコピーしてきて読み込む
+#すでにある場合は、上書き配置
