@@ -1,7 +1,7 @@
 #!/bin/bash
 echo LOAD DOT FILES
 
-select dotfile in '.vimrc' '.bashrc' '.tmux.conf'
+select dotfile in ".vimrc" ".bashrc" ".tmux.conf"
 do
   echo "select $dotfile"
   break
