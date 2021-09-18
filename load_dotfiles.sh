@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo LOAD DOT FILES
 
 select dotfile in .vimrc .bashrc .tmux.conf
