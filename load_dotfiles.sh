@@ -1,13 +1,10 @@
 #!/bin/bash
 echo LOAD DOT FILES
-
 select dotfile in .vimrc .bashrc .tmux.conf
-
 do
   echo "select $dotfile"
   break
 done
-
 if [ "$dotfile" = ".vimrc" ]; then
   source "$(curl -s https://raw.githubusercontent.com/koooota/dotfiles/master/.vimrc)"
 elif [ "$dotfile" = ".bashrc" ]; then
