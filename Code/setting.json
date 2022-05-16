@@ -12,6 +12,7 @@
     "files.trimTrailingWhitespace": true,
     "editor.renderWhitespace": "boundary",
     "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
     "terminal.integrated.copyOnSelection": true,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
